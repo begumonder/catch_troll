@@ -35,9 +35,14 @@ namespace Catch_Troll
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+<<<<<<< HEAD
            
 
             zaman = zaman - 1;
+=======
+            
+                zaman = zaman +1;
+>>>>>>> master
             sure.Text = Convert.ToString(zaman);
             if (zaman==0)
             {
@@ -58,6 +63,8 @@ namespace Catch_Troll
                }
                 
             }
+           
+            
            
         }
 
