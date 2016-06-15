@@ -92,6 +92,11 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  
  <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
  
+ #PROJEMİN ÇALIŞMA MANTIĞI
+
+Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde en yüksek puanı yapabilmek.
+ 
+ 
 
 
 
