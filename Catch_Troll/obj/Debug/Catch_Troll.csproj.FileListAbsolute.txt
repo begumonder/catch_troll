@@ -1,1 +1,10 @@
 F:\Staj\Catch_Troll\Catch_Troll\Catch_Troll\bin\Debug\Catch_Troll.exe.config
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\bin\Debug\Catch_Troll.exe.config
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\bin\Debug\Catch_Troll.exe
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\bin\Debug\Catch_Troll.pdb
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.csprojResolveAssemblyReference.cache
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.Form1.resources
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.Properties.Resources.resources
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.csproj.GenerateResource.Cache
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.exe
+F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.pdb
