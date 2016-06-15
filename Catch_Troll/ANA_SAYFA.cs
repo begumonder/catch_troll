@@ -26,7 +26,9 @@ namespace Catch_Troll
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            zor zor = new zor();
+            zor.Show();
+            this.Hide();
         }
     }
 }
