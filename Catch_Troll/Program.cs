@@ -16,7 +16,7 @@ namespace Catch_Troll
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Zor());
+            Application.Run(new ANA_SAYFA());
         }
     }
 }

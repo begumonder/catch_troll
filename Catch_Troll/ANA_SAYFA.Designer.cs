@@ -1,6 +1,6 @@
 ﻿namespace Catch_Troll
 {
-    partial class Zor
+    partial class ANA_SAYFA
     {
         /// <summary>
         /// Required designer variable.
@@ -66,7 +66,7 @@
             this.label1.Tag = "İSTEDİĞİNİZ ZORLUĞU SEÇİN";
             this.label1.Text = "İSTEDİĞİNİZ ZORLĞU SEÇİN";
             // 
-            // Zor
+            // ANA_SAYFA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -74,9 +74,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Zor";
+            this.Name = "ANA_SAYFA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Zor";
+            this.Text = "ANA SAYFA";
             this.ResumeLayout(false);
             this.PerformLayout();
 

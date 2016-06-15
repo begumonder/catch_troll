@@ -50,8 +50,9 @@ namespace Catch_Troll
 
         private void button1_Click(object sender, EventArgs e)
         {
-            skor.Text=Convert.ToString(0);
-            sure.Text = Convert.ToString(0);
+            ANA_SAYFA ana = new ANA_SAYFA();
+            ana.Show();
+            this.Hide();
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -59,6 +60,11 @@ namespace Catch_Troll
             ilk = rast.Next(600);
             son = rast.Next(350);
             target.Location = new System.Drawing.Point(ilk, son);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

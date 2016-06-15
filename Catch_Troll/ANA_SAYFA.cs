@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Catch_Troll
 {
-    public partial class Zor : Form
+    public partial class ANA_SAYFA : Form
     {
-        public Zor()
+        public ANA_SAYFA()
         {
             InitializeComponent();
         }
