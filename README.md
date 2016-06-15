@@ -88,6 +88,9 @@ Githubdan eski bir *commit*'i çekme getirmek için;
 
 <code>git checkout [commit] [file]</code> ile getirebiliriz.
  
+ Programınıza versiyon eklemek için;
+ 
+ <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
  
 
 
