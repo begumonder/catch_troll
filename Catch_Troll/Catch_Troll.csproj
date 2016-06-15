@@ -52,6 +52,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ANA_SAYFA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ANA_SAYFA.Designer.cs">
+      <DependentUpon>ANA_SAYFA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zor.Designer.cs">
+      <DependentUpon>zor.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -64,6 +76,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ANA_SAYFA.resx">
+      <DependentUpon>ANA_SAYFA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zor.resx">
+      <DependentUpon>zor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
