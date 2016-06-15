@@ -35,10 +35,11 @@ namespace Catch_Troll
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           
-
-            zaman = zaman + 1;
+            
+                zaman = zaman +1;
             sure.Text = Convert.ToString(zaman);
+           
+            
            
         }
 
