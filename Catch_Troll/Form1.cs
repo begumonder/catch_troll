@@ -46,5 +46,11 @@ namespace Catch_Troll
             score++;
             skor.Text = Convert.ToString(score);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            skor.Text=Convert.ToString(0);
+            sure.Text = Convert.ToString(0);
+        }
     }
 }
