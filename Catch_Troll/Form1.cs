@@ -39,16 +39,25 @@ namespace Catch_Troll
 
             zaman = zaman - 1;
             sure.Text = Convert.ToString(zaman);
-<<<<<<< HEAD
             if (zaman==0)
             {
                 timer1.Stop();
                 timer2.Stop();
-                MessageBox.Show("Baştan başlamak isermisiniz?","Süreniz doldu!",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
-
+               if ( DialogResult.Yes== MessageBox.Show("Baştan başlamak isermisiniz?","Süreniz doldu!",MessageBoxButtons.YesNo,MessageBoxIcon.Question))
+              
+                {
+                    skor.Text = Convert.ToString(0);
+                    sure.Text = Convert.ToString(4);
+                    timer1.Start();
+                    timer2.Start();
+                    zaman = 4;
+                }
+               else
+               {
+                   Application.Exit();
+               }
+                
             }
-=======
->>>>>>> c05be6f683a936b7ec761f5869eea8073020e7b7
            
         }
 
