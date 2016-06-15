@@ -25,7 +25,7 @@ namespace Catch_Troll
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            zaman = 4;
+            zaman = 60;
             sure.Text = Convert.ToString(zaman);
             timer1.Interval = 1000;
             timer1.Start();
@@ -47,10 +47,10 @@ namespace Catch_Troll
               
                 {
                     skor.Text = Convert.ToString(0);
-                    sure.Text = Convert.ToString(4);
+                    sure.Text = Convert.ToString(60);
                     timer1.Start();
                     timer2.Start();
-                    zaman = 4;
+                    zaman = 60;
                 }
                else
                {

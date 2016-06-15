@@ -36,7 +36,7 @@ namespace Catch_Troll
 
         private void zor_Load(object sender, EventArgs e)
         {
-            zaman = 0;
+            zaman = 60;
             sure.Text = Convert.ToString(zaman);
             timer1.Interval = 1000;
             timer1.Start();
@@ -47,10 +47,26 @@ namespace Catch_Troll
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-               zaman = zaman + 1;
+            zaman = zaman - 1;
             sure.Text = Convert.ToString(zaman);
+            if (zaman == 0)
+            {
+                timer1.Stop();
+                timer2.Stop();
+                if (DialogResult.Yes == MessageBox.Show("Baştan başlamak isermisiniz?", "Süreniz doldu!", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                {
+                    skor.Text = Convert.ToString(0);
+                    sure.Text = Convert.ToString(60);
+                    timer1.Start();
+                    timer2.Start();
+                    zaman = 60;
+                }
+                else
+                {
+                    Application.Exit();
+                }
+            }
         }
-
         private void timer2_Tick(object sender, EventArgs e)
         {
             
