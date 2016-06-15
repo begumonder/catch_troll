@@ -40,7 +40,7 @@ namespace Catch_Troll
             sure.Text = Convert.ToString(zaman);
             timer1.Interval = 1000;
             timer1.Start();
-            timer2.Interval = 850;
+            timer2.Interval = 400;
             timer2.Start();
         }
 
