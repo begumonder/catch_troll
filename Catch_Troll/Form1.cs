@@ -17,7 +17,8 @@ namespace Catch_Troll
             InitializeComponent();
         }
 
-        int zaman;
+        int zaman; //saniye 
+      
         Random rast = new Random();
         int ilk, son;
         int score = 0;
@@ -28,6 +29,8 @@ namespace Catch_Troll
             sure.Text = Convert.ToString(zaman);
             timer1.Interval = 1000;
             timer1.Start();
+            timer2.Interval = 850;
+            timer2.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -36,9 +39,7 @@ namespace Catch_Troll
 
             zaman = zaman + 1;
             sure.Text = Convert.ToString(zaman);
-            ilk = rast.Next(600);
-            son = rast.Next(350);
-            target.Location = new System.Drawing.Point(ilk,son);
+           
         }
 
         private void target_Click(object sender, EventArgs e)
@@ -51,6 +52,13 @@ namespace Catch_Troll
         {
             skor.Text=Convert.ToString(0);
             sure.Text = Convert.ToString(0);
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            ilk = rast.Next(600);
+            son = rast.Next(350);
+            target.Location = new System.Drawing.Point(ilk, son);
         }
     }
 }
