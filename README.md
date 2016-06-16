@@ -29,8 +29,8 @@ Mailimizi ekledikten sonra eğer yeni bir proje açıyorsak komut penceresini a�
 <code>git init</code>
 
 yazıyoruz. Bu komut projemizin içinde git klasörü oluşturmamızı sağlıyor.
-Eğer github’da zaten bir projemiz varsa ;
-
+Eğer github’da zaten bir projemiz varsa veya başka birinin projesini çekmek istiyorsak ;
+![git clone](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20clone.jpg)
 <code>git clone [clone url]</code> 
 
 şeklinde klasöre dosyaları çekebiliriz.
@@ -97,7 +97,7 @@ Githubdan eski bir *commit*'i çekme getirmek için;
 Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde en yüksek puanı elde edebilmek.
 
  
- 
+
 
 
 
