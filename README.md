@@ -1,3 +1,6 @@
+#DAĞITIK VERSİYON KONTROL SİSTEMLERİ
+
+Kullanıcıların dosyalarının son halini almalarına olanak tanır. Eğer snuculardan herhangi biri çökerse diğer istemcilerde bulunan yazılım havuzundakileri sunucuya geri yükleyerek sistem kurtarılabilir.
 #GIT
 Git bir versiyon takip sistemidir. Projemizde yaptığımız değişiklikleri adım adım kayıt etmemize olanak tanır. Örneğin projemizde bizden veya çevresel faktörlerden gelen bir hasar yada hatalı bir kod satırının sebep olduğu sorunlardan dolayı projemizin eski versiyonuna dönmemiz bizim için çok zor olacaktır, git ile bu sorunu kolayca aşabiliriz.	
 Eğer aynı projede birden fazla kişi çalışıyor ise git bize eş zamanlı olarak çalışma avantajı kazandırır. Git çok küçük ve kullanımı hızlıdır.
@@ -92,6 +95,8 @@ ile seçiyoruz dosyaları push etmek için;
 
  bu kod ile varsayılan push yerini değiştirmiş ve dosyalarımızı göndermiş olduk bunun içinde çalışmaya devam edeceksek;
 
+![git push](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20push.png)
+
 <code>git push </code> 
 
 ile doğrudan yollayabiliriz, ama master *branch* imize geçeceksek yukarıdaki işlemleri tekrarlamamız gerekecek.
@@ -106,10 +111,19 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  Programınıza versiyon eklemek için;
  
  <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
- 
- #PROJEMİN ÇALIŞMA MANTIĞI
 
-Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde en yüksek puanı elde edebilmek.
+#UPSTREAM İŞLEMİ
+Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orjinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
+Bu işlemi gerçekleştirmek için öncelikle;
+
+<code>git remote ad upstream [orjinal fork linki]</code> ile porjemize upstream olarak ekliyoruz. DOğrulamak için;
+
+<code>git remote -v</code> yazıyoruz eğer altdak gibi bir ileti geldiyse *upstream*'i ekleyebilmişizdir.
+
+![SS]()
+
+#PROJEM
+Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde troll'e tıklayarak en yüksek puanı elde edebilmek.
 
  
 
