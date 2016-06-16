@@ -112,7 +112,7 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  
  <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
 
-#UPSTREAM İŞLEMİ
+#UPSTREAM İŞLEMİ/PULL REQUEST
 Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orjinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
 Bu işlemi gerçekleştirmek için öncelikle;
 
