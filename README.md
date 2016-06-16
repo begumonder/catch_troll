@@ -64,6 +64,10 @@ Github daki dosyaları eşitlemek için;
 
 <code>git pull</code> kodu ile yapabiliriz.
 
+Eğer local branch'i değiştirmeden sadee çalıştığımız dosyayı değişirmek istersek;
+
+<code>git fetch</code> yazmanız yeterli.
+
 *Branch* ise projemizin orijinalini değiştirmeden o anki dosyalar ile istediğimiz değişikliği yapıp denemek için oluşturduğumuz dallardır. Bu özelliği kullanabilmek için önce github dan branch bölümünden istediğimiz bir isimle oluşturuyoruz daha sonra konsolda o branch’i oluşturup bağlanmak için;
 
 <code>git checkout -b [branch ismi]</code> 
