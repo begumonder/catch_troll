@@ -92,6 +92,8 @@ ile seçiyoruz dosyaları push etmek için;
 
  bu kod ile varsayılan push yerini değiştirmiş ve dosyalarımızı göndermiş olduk bunun içinde çalışmaya devam edeceksek;
 
+![git push](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20push.png)
+
 <code>git push </code> 
 
 ile doğrudan yollayabiliriz, ama master *branch* imize geçeceksek yukarıdaki işlemleri tekrarlamamız gerekecek.
