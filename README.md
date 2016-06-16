@@ -35,7 +35,7 @@ Eğer github’da zaten bir projemiz varsa veya başka birinin projesini çekmek
 <code>git clone [clone url]</code> 
 
 şeklinde klasöre dosyaları çekebiliriz.
-Projede değişiklik yaptıktan sonra git hubdaki farklılıkları görebilmek için 
+Projede değişiklik yaptıktan sonra git hubdaki farklı ve değiştirilmiş dosyaları görebilmek için;
 
 <code>git status</code> yazıyoruz.
 
@@ -47,12 +47,15 @@ yazarak sadece o dosyayı veya
 
 <code>git add .</code> 
 
-şeklinde tüm dosyaları ekleyebiliriz.
+şeklinde tüm dosyaları git'e ekleyebiliriz.
+
 Gitin takip ettiği ve üzerinde değişiklik yaptığımız dosyayı bildirmek için;
 
 <code>git commit –m “yaptığımız değişiklik notu”</code>
 
- yazıyoruz. Dosyaları göndermek için;
+![add-commit](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20add-commit.jpg)
+
+ kodunu yazıyoruz. Dosyaları göndermek için;
 
 <code>git push</code> yazıyoruz. 
 
@@ -61,14 +64,25 @@ Github daki dosyaları eşitlemek için;
 
 <code>git pull</code> kodu ile yapabiliriz.
 
+Eğer local branch'i değiştirmeden sadee çalıştığımız dosyayı değişirmek istersek;
+
+<code>git fetch</code> yazmanız yeterli.
+
 *Branch* ise projemizin orijinalini değiştirmeden o anki dosyalar ile istediğimiz değişikliği yapıp denemek için oluşturduğumuz dallardır. Bu özelliği kullanabilmek için önce github dan branch bölümünden istediğimiz bir isimle oluşturuyoruz daha sonra konsolda o branch’i oluşturup bağlanmak için;
 
-<code>git branch [branch ismi]</code> 
-githubda oluşturduğumuz branch ismini yazıyoruz. Oluştuğunu kontrol etmek için;
+<code>git checkout -b [branch ismi]</code> 
+yazıyoruz.
+
+Branchimizi github a göndermek için;
+
+<code>git push origin [branch ismi]</code> 
+yazarız.
+
+Oluştuğunu kontrol etmek için;
 
 <code>git branch</code> 
 
-yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. O branchde çalışıp kayıt etmek için ise;
+yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. Master branch'e dönemk için ise;
 
 <code>git checkout [branch adı]</code> 
 
