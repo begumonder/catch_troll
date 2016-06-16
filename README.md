@@ -35,7 +35,7 @@ Eğer github’da zaten bir projemiz varsa veya başka birinin projesini çekmek
 <code>git clone [clone url]</code> 
 
 şeklinde klasöre dosyaları çekebiliriz.
-Projede değişiklik yaptıktan sonra git hubdaki farklılıkları görebilmek için 
+Projede değişiklik yaptıktan sonra git hubdaki farklı ve değiştirilmiş dosyaları görebilmek için;
 
 <code>git status</code> yazıyoruz.
 
@@ -47,12 +47,15 @@ yazarak sadece o dosyayı veya
 
 <code>git add .</code> 
 
-şeklinde tüm dosyaları ekleyebiliriz.
+şeklinde tüm dosyaları git'e ekleyebiliriz.
+
 Gitin takip ettiği ve üzerinde değişiklik yaptığımız dosyayı bildirmek için;
 
 <code>git commit –m “yaptığımız değişiklik notu”</code>
 
- yazıyoruz. Dosyaları göndermek için;
+![add-commit](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20add-commit.jpg)
+
+ kodunu yazıyoruz. Dosyaları göndermek için;
 
 <code>git push</code> yazıyoruz. 
 
