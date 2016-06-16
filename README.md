@@ -112,8 +112,17 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  
  <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
 
-#PROJEM
+#UPSTREAM İŞLEMİ
+Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orjinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
+Bu işlemi gerçekleştirmek için öncelikle;
 
+<code>git remote ad upstream [orjinal fork linki]</code> ile porjemize upstream olarak ekliyoruz. DOğrulamak için;
+
+<code>git remote -v</code> yazıyoruz eğer altdak gibi bir ileti geldiyse *upstream*'i ekleyebilmişizdir.
+
+![SS]()
+
+#PROJEM
 Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde troll'e tıklayarak en yüksek puanı elde edebilmek.
 
  
