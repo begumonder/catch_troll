@@ -94,7 +94,8 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  
  #PROJEMİN ÇALIŞMA MANTIĞI
 
-Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde en yüksek puanı yapabilmek.
+Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde en yüksek puanı elde edebilmek.
+
  
  
 
