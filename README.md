@@ -31,6 +31,7 @@ Mailimizi ekledikten sonra eğer yeni bir proje açıyorsak komut penceresini a�
 yazıyoruz. Bu komut projemizin içinde git klasörü oluşturmamızı sağlıyor.
 Eğer github’da zaten bir projemiz varsa veya başka birinin projesini çekmek istiyorsak ;
 ![git clone](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20clone.jpg)
+
 <code>git clone [clone url]</code> 
 
 şeklinde klasöre dosyaları çekebiliriz.
