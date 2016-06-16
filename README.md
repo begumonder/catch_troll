@@ -91,7 +91,7 @@ yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. Mast
 
 ile seçiyoruz dosyaları push etmek için;
 
-<code>git push –set—upstream origin [branch adı]</code>
+<code>git push --set—upstream origin [branch adı]</code>
 
  bu kod ile varsayılan push yerini değiştirmiş ve dosyalarımızı göndermiş olduk bunun içinde çalışmaya devam edeceksek;
 
@@ -104,6 +104,15 @@ Projemizde çalışan diğer kişiler ile yaptıklarımız birleştireceksek;
 
 <code>git merge</code> ile yapabiliriz.
 
+Oluşturduğumuz *branch*'i slmek istersek;
+
+<code>git branch -d [branch adı] </code>  kodu ile yapabiliriz.
+
+Projemizde değiştirdiğimiz *branch*'i birleştirmeden önce master *branch* veya başka bir *branch* ile karşılaştırma yapmak istersek;
+
+<code>git diff [Kaynak_Dal][Hedef_Dal]</code> kondunu yazarak yapabiliriz.
+
+
 Githubdan eski bir *commit*'i çekme getirmek için;
 
 <code>git checkout [commit] [file]</code> ile getirebiliriz.
@@ -111,6 +120,10 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  Programınıza versiyon eklemek için;
  
  <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
+
+Yapılan değişiklikleri kimin yaptığını ne zaman gönderdiğini ve *commit* numarasını görebilmek için;
+
+<code>git log</code> komutunu yazmamız gerekir.
 
 #UPSTREAM İŞLEMİ/PULL REQUEST
 Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orijinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
