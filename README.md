@@ -1,3 +1,6 @@
+#DAĞITIK VERSİYON KONTROL SİSTEMLERİ
+
+Kullanıcıların dosyalarının son halini almalarına olanak tanır. Eğer snuculardan herhangi biri çökerse diğer istemcilerde bulunan yazılım havuzundakileri sunucuya geri yükleyerek sistem kurtarılabilir.
 #GIT
 Git bir versiyon takip sistemidir. Projemizde yaptığımız değişiklikleri adım adım kayıt etmemize olanak tanır. Örneğin projemizde bizden veya çevresel faktörlerden gelen bir hasar yada hatalı bir kod satırının sebep olduğu sorunlardan dolayı projemizin eski versiyonuna dönmemiz bizim için çok zor olacaktır, git ile bu sorunu kolayca aşabiliriz.	
 Eğer aynı projede birden fazla kişi çalışıyor ise git bize eş zamanlı olarak çalışma avantajı kazandırır. Git çok küçük ve kullanımı hızlıdır.
