@@ -120,7 +120,7 @@ Bu işlemi gerçekleştirmek için öncelikle;
 
 <code>git remote -v</code> yazıyoruz eğer altdak gibi bir ileti geldiyse *upstream*'i ekleyebilmişizdir.
 
-![SS]()
+![SS](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG)
 
 #PROJEM
 Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde troll'e tıklayarak en yüksek puanı elde edebilmek.
