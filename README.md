@@ -116,7 +116,7 @@ Githubdan eski bir *commit*'i çekme getirmek için;
 Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orijinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
 Bu işlemi gerçekleştirmek için öncelikle;
 
-<code>git remote ad upstream [orjinal fork linki]</code> ile projemize upstream olarak ekliyoruz. Doğrulamak için;
+<code>git remote add upstream [orjinal fork linki]</code> ile projemize upstream olarak ekliyoruz. Doğrulamak için;
 
 <code>git remote -v</code> yazıyoruz eğer alttaki gibi bir ileti geldiyse *upstream*'i ekleyebilmişizdir.
 
@@ -134,7 +134,7 @@ Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde troll'e tıkla
 
  
 
-
+Berkay BAHÇECİ
 
 
 
