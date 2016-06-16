@@ -133,8 +133,8 @@ Bu işlemi gerçekleştirmek için öncelikle;
 Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde troll'e tıklayarak en yüksek puanı elde edebilmek.
 
  
-
-Berkay BAHÇECİ
+HAZIRLAYAN
+*Berkay BAHÇECİ*
 
 
 
