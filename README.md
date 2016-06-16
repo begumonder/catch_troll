@@ -1,8 +1,8 @@
 #DAĞITIK VERSİYON KONTROL SİSTEMLERİ
 
-Kullanıcıların dosyalarının son halini almalarına olanak tanır. Eğer snuculardan herhangi biri çökerse diğer istemcilerde bulunan yazılım havuzundakileri sunucuya geri yükleyerek sistem kurtarılabilir.
+Kullanıcıların dosyalarının son halini almalarına olanak tanır. Eğer sunuculardan herhangi biri çökerse diğer istemcilerde bulunan yazılım havuzundakileri sunucuya geri yükleyerek sistem kurtarılabilir.
 #GIT
-Git bir versiyon takip sistemidir. Projemizde yaptığımız değişiklikleri adım adım kayıt etmemize olanak tanır. Örneğin projemizde bizden veya çevresel faktörlerden gelen bir hasar yada hatalı bir kod satırının sebep olduğu sorunlardan dolayı projemizin eski versiyonuna dönmemiz bizim için çok zor olacaktır, git ile bu sorunu kolayca aşabiliriz.	
+Git bir versiyon takip sistemidir. Projemizde yaptığımız değişiklikleri adım adım kayıt etmemize olanak tanır. Örneğin projemizde bizden veya çevresel faktörlerden gelen bir hasar ya da hatalı bir kod satırının sebep olduğu sorunlardan dolayı projemizin eski versiyonuna dönmemiz bizim için çok zor olacaktır, git ile bu sorunu kolayca aşabiliriz.	 
 Eğer aynı projede birden fazla kişi çalışıyor ise git bize eş zamanlı olarak çalışma avantajı kazandırır. Git çok küçük ve kullanımı hızlıdır.
 
 #GITHUB
@@ -10,7 +10,7 @@ Github proje yönetimini kolaylaştıran projenizin versiyonlarını depolayan b
 Bir diğer özeliği ise projenizde çalışmasa dahi başkaları sizin çalışmanızı alıp düzenleyip size projenizin o halini gönderebilir. Aynı şekilde sizde başkalarının projelerini alıp oradaki hataları bulup kendinizi geliştirebiliriz. Projenizde yeni bir kod ekleyecekseniz orijinal projenizi bozmadan *branch* oluşturarak deneyebilirsiniz.
 Github’ın en önemli özelliği ise istenildiği zaman projenizin eski sürümünü indirip yeni sürüm ile karşılaştırmanıza olanak tanır.
 #GİT İLE GITHUB’I BAĞLAMA VE KULLANIMI
-Öncelikle git’i bu [adresten](https://git-scm.com "adresten") indirip kuruyoruz. Daha sonra dosyalarımızı github a göndermek için masa üstüne gelen git bash programına tıklıyoruz açılan konsola ;
+Öncelikle git’i bu [adresten](https://git-scm.com "adresten") indirip kuruyoruz. Daha sonra dosyalarımızı github a göndermek için masa üstüne gelen git bash programına tıklıyoruz açılan konsola;
 
 <code>Git config –-global user.email “mailadresiniz”</code>
 
@@ -22,7 +22,7 @@ yazıyoruz. Eğer mailimiz yazıldıysa mailimizi eklemiş olduk. Bu kod sayesin
 
 <code>Git config user.email “mailadresiniz”</code>
 
-Konrol için ise;
+Kontrol için ise;
 
 <code>Git config user.email </code>
 
@@ -32,7 +32,7 @@ Mailimizi ekledikten sonra eğer yeni bir proje açıyorsak komut penceresini a�
 <code>git init</code>
 
 yazıyoruz. Bu komut projemizin içinde git klasörü oluşturmamızı sağlıyor.
-Eğer github’da zaten bir projemiz varsa veya başka birinin projesini çekmek istiyorsak ;
+Eğer github’da zaten bir projemiz varsa veya başka birinin projesini çekmek istiyorsak;
 ![git clone](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/git%20clone.jpg)
 
 <code>git clone [clone url]</code> 
@@ -42,7 +42,7 @@ Projede değişiklik yaptıktan sonra git hubdaki farklı ve değiştirilmiş do
 
 <code>git status</code> yazıyoruz.
 
-Bu komutdan sonra eğer farklı dosyalarımız var ise;
+Bu komuttan sonra eğer farklı dosyalarımız var ise;
 
  <code>git add [dosyaadı.uzantısı]</code> 
 
@@ -52,7 +52,7 @@ yazarak sadece o dosyayı veya
 
 şeklinde tüm dosyaları git'e ekleyebiliriz.
 
-Gitin takip ettiği ve üzerinde değişiklik yaptığımız dosyayı bildirmek için;
+Git’in takip ettiği ve üzerinde değişiklik yaptığımız dosyayı bildirmek için;
 
 <code>git commit –m “yaptığımız değişiklik notu”</code>
 
@@ -63,11 +63,11 @@ Gitin takip ettiği ve üzerinde değişiklik yaptığımız dosyayı bildirmek 
 <code>git push</code> yazıyoruz. 
 
 Bu sayede dosyalarımızı göndermiş olduk.
-Github daki dosyaları eşitlemek için;
+Github’daki dosyaları eşitlemek için;
 
 <code>git pull</code> kodu ile yapabiliriz.
 
-Eğer local branch'i değiştirmeden sadee çalıştığımız dosyayı değişirmek istersek;
+Eğer local branch'i değiştirmeden sadece çalıştığımız dosyayı değiştirmek istersek;
 
 <code>git fetch</code> yazmanız yeterli.
 
@@ -85,7 +85,7 @@ Oluştuğunu kontrol etmek için;
 
 <code>git branch</code> 
 
-yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. Master branch'e dönemk için ise;
+yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. Master branch'e dönmek için ise;
 
 <code>git checkout [branch adı]</code> 
 
@@ -113,12 +113,12 @@ Githubdan eski bir *commit*'i çekme getirmek için;
  <code>git tag -a versiyon no -m "versiyon açıklaması"</code> kodunu kullanabiliriz.
 
 #UPSTREAM İŞLEMİ/PULL REQUEST
-Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orjinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
+Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orijinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
 Bu işlemi gerçekleştirmek için öncelikle;
 
-<code>git remote ad upstream [orjinal fork linki]</code> ile porjemize upstream olarak ekliyoruz. DOğrulamak için;
+<code>git remote ad upstream [orjinal fork linki]</code> ile projemize upstream olarak ekliyoruz. Doğrulamak için;
 
-<code>git remote -v</code> yazıyoruz eğer altdak gibi bir ileti geldiyse *upstream*'i ekleyebilmişizdir.
+<code>git remote -v</code> yazıyoruz eğer alttaki gibi bir ileti geldiyse *upstream*'i ekleyebilmişizdir.
 
 ![SS](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG)
 
