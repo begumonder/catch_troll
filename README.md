@@ -66,12 +66,19 @@ Github daki dosyaları eşitlemek için;
 
 *Branch* ise projemizin orijinalini değiştirmeden o anki dosyalar ile istediğimiz değişikliği yapıp denemek için oluşturduğumuz dallardır. Bu özelliği kullanabilmek için önce github dan branch bölümünden istediğimiz bir isimle oluşturuyoruz daha sonra konsolda o branch’i oluşturup bağlanmak için;
 
-<code>git branch [branch ismi]</code> 
-githubda oluşturduğumuz branch ismini yazıyoruz. Oluştuğunu kontrol etmek için;
+<code>git checkout -b [branch ismi]</code> 
+yazıyoruz.
+
+Branchimizi github a göndermek için;
+
+<code>git push origin [branch ismi]</code> 
+yazarız.
+
+Oluştuğunu kontrol etmek için;
 
 <code>git branch</code> 
 
-yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. O branchde çalışıp kayıt etmek için ise;
+yazıyoruz ve branchimizin ismi orada göründüyse çalışıyor demektir. Master branch'e dönemk için ise;
 
 <code>git checkout [branch adı]</code> 
 
