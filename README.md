@@ -122,6 +122,13 @@ Bu işlemi gerçekleştirmek için öncelikle;
 
 ![SS](https://raw.githubusercontent.com/anet01/catch_troll/master/Resimler/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG)
 
+<code>git checkout master</code>yazıp *master* *branch*'de olduğumuzdan emin olduktan sonra uzaktaki verileri çekmek için;
+
+<code>git fetch upstream</code> yazıyoruz aldığımız dosyaları birleştirmek için ise;
+
+<code>git merge upstream/master</code> yazıyoruz. Bu işlemlerden sonra *upstream*'i tamamlamış olduk.
+
+
 #PROJEM
 Projemin amacı 60 saniye içerisinde seçilen zorluk seviyesinde troll'e tıklayarak en yüksek puanı elde edebilmek.
 
