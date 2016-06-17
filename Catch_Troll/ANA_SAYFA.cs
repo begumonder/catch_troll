@@ -30,5 +30,10 @@ namespace Catch_Troll
             zor.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("yeni eklenen buton");
+        }
     }
 }

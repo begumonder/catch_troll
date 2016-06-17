@@ -10,3 +10,6 @@ F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.exe
 F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.pdb
 F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.ANA_SAYFA.resources
 F:\Staj\GİTHUB\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.zor.resources
+C:\Users\Emel\Desktop\dd\catch_troll\Catch_Troll\bin\Debug\Catch_Troll.exe.config
+C:\Users\Emel\Desktop\dd\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.exe
+C:\Users\Emel\Desktop\dd\catch_troll\Catch_Troll\obj\Debug\Catch_Troll.pdb
