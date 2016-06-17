@@ -125,6 +125,11 @@ Yapılan değişiklikleri kimin yaptığını ne zaman gönderdiğini ve *commit
 
 <code>git log</code> komutunu yazmamız gerekir.
 
+Eğer kaydı yaparken hatalı bir dosya yada eksik bir dosya eklemişseniz kaydı kaldırmanız gerekir bunun için;
+
+<code>git commit --amend</code> kodu ile commit'i kaldırabiliriz.
+
+
 #UPSTREAM İŞLEMİ/PULL REQUEST
 Eğer *fork* ettiğimiz bir proje varsa ve biz fork ettikten sonra *fork* edilen orijinal projede değişiklik yapıldıysa o değişiklikleri almak için kullanılır.
 Bu işlemi gerçekleştirmek için öncelikle;
